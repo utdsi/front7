@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+
+#navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}
+
+#navbar button{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#navbar button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+}
+
+#body{
+    background-color: black;
+    height: 600px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 200px;
+}
