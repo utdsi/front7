@@ -6,7 +6,7 @@ let token = localStorage.getItem("token")
 async function getFunc(){
     let token = localStorage.getItem("token")
 
-    let res = await fetch("http://localhost:7300/details",{
+    let res = await fetch("https://sore-rose-rooster-garb.cyclic.app/details",{
         method:"GET",
         headers:{
             "Content-Type":"application/json",

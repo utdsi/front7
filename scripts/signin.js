@@ -26,7 +26,7 @@ function myFunc(event){
 
 async function fetch_signup(obj){
 
-    let res = await fetch("http://localhost:7300/login",{
+    let res = await fetch("https://sore-rose-rooster-garb.cyclic.app/login",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
